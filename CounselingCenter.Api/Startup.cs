@@ -32,6 +32,8 @@ namespace CounselingCenter.Api
 
             services.AddDbContext<CounselingCenterContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("SqlServer")));
+            
+            // rol bazlı attribute'lar için //TODO
 
             services.AddSwaggerGen(c =>
             {
