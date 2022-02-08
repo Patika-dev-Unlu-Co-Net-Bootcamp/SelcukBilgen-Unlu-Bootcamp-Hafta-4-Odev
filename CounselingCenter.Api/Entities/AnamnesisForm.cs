@@ -5,6 +5,6 @@ namespace CounselingCenter.Api.Entities
         public int Id { get; set; }
         public string Description { get; set; }
         public string Opinion { get; set; }
-        public AppUser User { get; set; }
+        public AppUser AppUser { get; set; }
     }
 }

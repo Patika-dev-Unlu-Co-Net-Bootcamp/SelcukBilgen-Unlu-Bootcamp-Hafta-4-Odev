@@ -8,6 +8,6 @@ namespace CounselingCenter.Api.Entities
         public DateTime? AppointmentDate { get; set; }
         public string Description { get; set; }
         public string Recommendation { get; set; }
-        public AppUser User { get; set; }
+        public AppUser AppUser { get; set; }
     }
 }
